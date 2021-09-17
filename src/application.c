@@ -60,6 +60,8 @@ void OnOAuth2Token(void* data, enum EDiscordResult result, struct DiscordOAuth2T
   free(promise);
 }
 
+
+
 napi_value GetOAuth2Token(napi_env env, napi_callback_info info) {
   void* data;
   AddonState* state;

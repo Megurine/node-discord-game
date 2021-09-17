@@ -1,31 +1,64 @@
 {
-  "name": "discord-game",
-  "version": "0.1.2",
+  "_args": [
+    [
+      "discord-game@0.1.2",
+      "C:\\Users\\Mégu\\Desktop\\oauth"
+    ]
+  ],
+  "_from": "discord-game@0.1.2",
+  "_id": "discord-game@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-LguqsA8BgTPMw42s4NCFXorn8IUtJCKFdZHZocPxIxrVJ1J4y0Q36T91OUPnPnvJgJkb5Fmh2txzQtOiWR8qVA==",
+  "_location": "/discord-game",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "discord-game@0.1.2",
+    "name": "discord-game",
+    "escapedName": "discord-game",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord-game/-/discord-game-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "C:\\Users\\Mégu\\Desktop\\oauth",
+  "author": {
+    "name": "Open Unlight",
+    "email": "open@unlight.com.tw"
+  },
+  "bugs": {
+    "url": "https://github.com/open-unlight/node-discord-game/issues"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0"
+  },
   "description": "The Discord Game SDK for Electron.js",
-  "main": "lib/discord_game.js",
-  "types": "types/discord_game.d.ts",
-  "scripts": {
-    "build": "node-gyp configure && node-gyp build",
-    "test": "mocha -gc-global --reporter spec"
+  "devDependencies": {
+    "mocha": "^8.1.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/open-unlight/node-discord-game.git"
-  },
+  "gypfile": true,
+  "homepage": "https://github.com/open-unlight/node-discord-game#readme",
   "keywords": [
     "Discord",
     "Electron.js"
   ],
-  "author": "Open Unlight <open@unlight.com.tw>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/open-unlight/node-discord-game/issues"
+  "main": "lib/discord_game.js",
+  "name": "discord-game",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-unlight/node-discord-game.git"
   },
-  "homepage": "https://github.com/open-unlight/node-discord-game#readme",
-  "dependencies": {
-    "bindings": "^1.5.0"
+  "scripts": {
+    "build": "node-gyp configure && node-gyp build",
+    "install": "node-gyp rebuild",
+    "test": "mocha -gc-global --reporter spec"
   },
-  "devDependencies": {
-    "mocha": "^8.1.3"
-  }
+  "types": "types/discord_game.d.ts",
+  "version": "0.1.2"
 }
