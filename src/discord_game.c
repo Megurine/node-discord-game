@@ -34,184 +34,139 @@ char* DiscordResultToChar(enum EDiscordResult e)
 	static char code[128] = "Before switch";
 	switch(e){
 		case DiscordResult_Ok:
-			char newcode[128] = "DiscordResult_Ok";
-			strcpy(code, newcode);
+			strcpy(code, "DiscordResult_Ok");
 			break;
 		case DiscordResult_ServiceUnavailable:
-			char newcode1[128] = "DiscordResult_ServiceUnavailable";
-			strcpy(code, newcode1);
+			strcpy(code, "DiscordResult_ServiceUnavailable");
 			break;
 		case DiscordResult_InvalidVersion:
-			char newcode2[128] = "DiscordResult_InvalidVersion";
-			strcpy(code, newcode2);
+			strcpy(code, "DiscordResult_InvalidVersion");
 			break;
 		case DiscordResult_LockFailed:
-			char newcode3[128] = "DiscordResult_LockFailed";
-			strcpy(code, newcode3);
+			strcpy(code, "DiscordResult_LockFailed");
 			break;
 		case DiscordResult_InternalError:
-			char newcode4[128] = "DiscordResult_InternalError";
-			strcpy(code, newcode4);
+			strcpy(code, "DiscordResult_InternalError");
 			break;
 		case DiscordResult_InvalidPayload:
-			char newcode5[128] = "DiscordResult_InvalidPayload";
-			strcpy(code, newcode5);
+			strcpy(code, "DiscordResult_InvalidPayload");
 			break;
 		case DiscordResult_InvalidCommand:
-			char newcode6[128] = "DiscordResult_InvalidCommand";
-			strcpy(code, newcode6);
+			strcpy(code, "DiscordResult_InvalidCommand");
 			break;
 		case DiscordResult_InvalidPermissions:
-			char newcode7[128] = "DiscordResult_InvalidPermissions";
-			strcpy(code, newcode7);
+			strcpy(code, "DiscordResult_InvalidPermissions");
 			break;
 		case DiscordResult_NotFetched:
-			char newcode8[128] = "DiscordResult_NotFetched";
-			strcpy(code, newcode8);
+			strcpy(code, "DiscordResult_NotFetched");
 			break;
 		case DiscordResult_NotFound:
-			char newcode9[128] = "DiscordResult_NotFound";
-			strcpy(code, newcode9);
+			strcpy(code, "DiscordResult_NotFound");
 			break;
 		case DiscordResult_Conflict:
-			char newcode10[128] = "DiscordResult_Conflict";
-			strcpy(code, newcode10);
+			strcpy(code, "DiscordResult_Conflict");
 			break;
 		case DiscordResult_InvalidSecret:
-			char newcode11[128] = "DiscordResult_InvalidSecret";
-			strcpy(code, newcode11);
+			strcpy(code, "DiscordResult_InvalidSecret");
 			break;
 		case DiscordResult_InvalidJoinSecret:
-			char newcode12[128] = "DiscordResult_InvalidJoinSecret";
-			strcpy(code, newcode12);
+			strcpy(code, "DiscordResult_InvalidJoinSecret");
 			break;
 		case DiscordResult_NoEligibleActivity:
-			char newcode13[128] = "DiscordResult_NoEligibleActivity";
-			strcpy(code, newcode13);
+			strcpy(code, "DiscordResult_NoEligibleActivity");
 			break;
 		case DiscordResult_InvalidInvite:
-			char newcode14[128] = "DiscordResult_InvalidInvite";
-			strcpy(code, newcode14);
+			strcpy(code, "DiscordResult_InvalidInvite");
 			break;
 		case DiscordResult_NotAuthenticated:
-			char newcode15[128] = "DiscordResult_NotAuthenticated";
-			strcpy(code, newcode15);
+			strcpy(code, "DiscordResult_NotAuthenticated");
 			break;
 		case DiscordResult_InvalidAccessToken:
-			char newcode16[128] = "DiscordResult_InvalidAccessToken";
-			strcpy(code, newcode16);
+			strcpy(code, "DiscordResult_InvalidAccessToken");
 			break;
 		case DiscordResult_ApplicationMismatch:
-			char newcode17[128] = "DiscordResult_ApplicationMismatch";
-			strcpy(code, newcode17);
+			strcpy(code, "DiscordResult_ApplicationMismatch");
 			break;
 		case DiscordResult_InvalidDataUrl:
-			char newcode18[128] = "DiscordResult_InvalidDataUrl";
-			strcpy(code, newcode18);
+			strcpy(code, "DiscordResult_InvalidDataUrl");
 			break;
 		case DiscordResult_InvalidBase64:
-			char newcode19[128] = "DiscordResult_InvalidBase64";
-			strcpy(code, newcode19);
+			strcpy(code, "DiscordResult_InvalidBase64");
 			break;
 		case DiscordResult_NotFiltered:
-			char newcode20[128] = "DiscordResult_NotFiltered";
-			strcpy(code, newcode20);
+			strcpy(code, "DiscordResult_NotFiltered");
 			break;
 		case DiscordResult_LobbyFull:
-			char newcode21[128] = "DiscordResult_LobbyFull";
-			strcpy(code, newcode21);
+			strcpy(code, "DiscordResult_LobbyFull");
 			break;
 		case DiscordResult_InvalidLobbySecret:
-			char newcode122[128] = "DiscordResult_InvalidLobbySecret";
-			strcpy(code, newcode122);
+			strcpy(code, "DiscordResult_InvalidLobbySecret");
 			break;
 		case DiscordResult_InvalidFilename:
-			char newcode23[128] = "DiscordResult_InvalidFilename";
-			strcpy(code, newcode23);
+			strcpy(code, "DiscordResult_InvalidFilename");
 			break;
 		case DiscordResult_InvalidFileSize:
-			char newcode24[128] = "DiscordResult_InvalidFileSize";
-			strcpy(code, newcode24);
+			strcpy(code, "DiscordResult_InvalidFileSize");
 			break;
 		case DiscordResult_InvalidEntitlement:
-			char newcode25[128] = "DiscordResult_InvalidEntitlement";
-			strcpy(code, newcode25);
+			strcpy(code, "DiscordResult_InvalidEntitlement");
 			break;
 		case DiscordResult_NotInstalled:
-			char newcode26[128] = "DiscordResult_NotInstalled";
-			strcpy(code, newcode26);
+			strcpy(code, "DiscordResult_NotInstalled");
 			break;
 		case DiscordResult_NotRunning:
-			char newcode27[128] = "DiscordResult_NotRunning";
-			strcpy(code, newcode27);
+			strcpy(code, "DiscordResult_NotRunning");
 			break;
 		case DiscordResult_InsufficientBuffer:
-			char newcode28[128] = "DiscordResult_InsufficientBuffer";
-			strcpy(code, newcode28);
+			strcpy(code, "DiscordResult_InsufficientBuffer");
 			break;
 		case DiscordResult_PurchaseCanceled:
-			char newcode29[128] = "DiscordResult_PurchaseCanceled";
-			strcpy(code, newcode29);
+			strcpy(code, "DiscordResult_PurchaseCanceled");
 			break;
 		case DiscordResult_InvalidGuild:
-			char newcode30[128] = "DiscordResult_InvalidGuild";
-			strcpy(code, newcode30);
+			strcpy(code, "DiscordResult_InvalidGuild");
 			break;
 		case DiscordResult_InvalidEvent:
-			char newcode31[128] = "DiscordResult_InvalidEvent";
-			strcpy(code, newcode31);
+			strcpy(code, "DiscordResult_InvalidEvent");
 			break;
 		case DiscordResult_InvalidChannel:
-			char newcode32[128] = "DiscordResult_InvalidChannel";
-			strcpy(code, newcode32);
+			strcpy(code, "DiscordResult_InvalidChannel");
 			break;
 		case DiscordResult_InvalidOrigin:
-			char newcode33[128] = "DiscordResult_InvalidOrigin";
-			strcpy(code, newcode33);
+			strcpy(code, "DiscordResult_InvalidOrigin");
 			break;
 		case DiscordResult_RateLimited:
-			char newcode34[128] = "DiscordResult_RateLimited";
-			strcpy(code, newcode34);
+			strcpy(code, "DiscordResult_RateLimited");
 			break;
 		case DiscordResult_OAuth2Error:
-			char newcode35[128] = "DiscordResult_OAuth2Error";
-			strcpy(code, newcode35);
+			strcpy(code, "DiscordResult_OAuth2Error");
 			break;
 		case DiscordResult_SelectChannelTimeout:
-			char newcode36[128] = "DiscordResult_SelectChannelTimeout";
-			strcpy(code, newcode36);
+			strcpy(code, "DiscordResult_SelectChannelTimeout");
 			break;
 		case DiscordResult_GetGuildTimeout:
-			char newcode37[128] = "DiscordResult_GetGuildTimeout";
-			strcpy(code, newcode37);
+			strcpy(code, "DiscordResult_GetGuildTimeout");
 			break;
 		case DiscordResult_SelectVoiceForceRequired:
-			char newcode38[128] = "DiscordResult_SelectVoiceForceRequired";
-			strcpy(code, newcode38);
+			strcpy(code, "DiscordResult_SelectVoiceForceRequired");
 			break;
 		case DiscordResult_CaptureShortcutAlreadyListening:
-			char newcode39[128] = "DiscordResult_CaptureShortcutAlreadyListening";
-			strcpy(code, newcode39);
+			strcpy(code, "DiscordResult_CaptureShortcutAlreadyListening");
 			break;
 		case DiscordResult_UnauthorizedForAchievement:
-			char newcode40[128] = "DiscordResult_UnauthorizedForAchievement";
-			strcpy(code, newcode40);
+			strcpy(code, "DiscordResult_UnauthorizedForAchievement");
 			break;
 		case DiscordResult_InvalidGiftCode:
-			char newcode41[128] = "DiscordResult_InvalidGiftCode";
-			strcpy(code, newcode41);
+			strcpy(code, "DiscordResult_InvalidGiftCode");
 			break;
 		case DiscordResult_PurchaseError:
-			char newcode42[128] = "DiscordResult_PurchaseError";
-			strcpy(code, newcode42);
+			strcpy(code, "DiscordResult_PurchaseError");
 			break;
 		case DiscordResult_TransactionAborted:
-			char newcode43[128] = "DiscordResult_TransactionAborted";
-			strcpy(code, newcode43);
+			strcpy(code, "DiscordResult_TransactionAborted");
 			break;
 		default: 
-			char newcoded[128] = "default";
-			strcpy(code, newcoded);
+			strcpy(code, "default");
 	}
 	
 	return code;
